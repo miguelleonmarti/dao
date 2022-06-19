@@ -1,6 +1,10 @@
-html,
-body,  * {
+* {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: Ubuntu, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
