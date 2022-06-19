@@ -1,0 +1,23 @@
+.layout {
+    min-height: 100vh;
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    padding: 30px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
