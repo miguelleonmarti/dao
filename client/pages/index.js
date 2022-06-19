@@ -97,7 +97,7 @@ export default function Home() {
                 },
               }}
             >
-              <Tag color={(await getStatus(e.attributes.uid)).color} text={(await getStatus(e.attributes.uid)).text} />
+              <Tag id={e.attributes.id} color={(await getStatus(e.attributes.uid)).color} text={(await getStatus(e.attributes.uid)).text} />
             </Link>,
           ])
         );
@@ -124,7 +124,7 @@ export default function Home() {
       const fetchTokenIdOwners = async () => {
         const options = {
           address: "0x2953399124F0cBB46d2CbACD8A89cF0599974963",
-          token_id: "34885103611559094078416375598166902696017567311370712658413208238551126245396",
+          token_id: "69158250851301326825178401965105985558928851185716408428945562438041308495877",
           chain: "mumbai",
         };
         const tokenIdOwners = await Web3Api.token.getTokenIdOwners(options);
